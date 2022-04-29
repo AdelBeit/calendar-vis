@@ -1,0 +1,15 @@
+Day Card: 
+- 48 slots, 30 minutes each: 2px each?
+
+Weekly Calendar:
+- 7 day cards
+
+Monthly Calendar: 
+- 4 week cards
+
+
+Utils:
+- ConvertTime: start/end strings => position on day Card
+
+
+https://tony-game-tracker-backend.herokuapp.com/test

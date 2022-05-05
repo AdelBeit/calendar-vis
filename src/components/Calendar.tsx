@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Calendar.module.css";
+import { CalendarProps } from "../types";
 
-function Calendar() {
-  return <div className={styles["section__calendar"]}></div>;
-}
+const Calendar: React.FunctionComponent<CalendarProps> = ({ children }) => {
+  return <div className={styles["container__calendar"]}>{children}</div>;
+};
 
 export { Calendar };

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export default function Layout({
   children,
-  title = "Idea Auto",
+  title = "",
 }: {
   children: JSX.Element;
   title: string;
